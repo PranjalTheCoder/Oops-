@@ -168,7 +168,21 @@ public class Main {
  *      *       this is used to refer to the current object, while super is used to refer to the parent class.
  * 
  * 
- * 
+ You can also use final keyword to prevent inheritance.
+ * * If you declare a class as final, it cannot be subclassed.
+ * *   Eg:
+ * *   public final class FinalClass {
+ *      void display() {
+ *        System.out.println("This is a final class");
+ *      }
+ * *   }
+ *  * *   public class SubClass extends FinalClass { // This will cause a compile-time error
+ * *      void display() {
+ *       System.out.println("Trying to extend final class");
+ *      }
+ *  }
+ * *  In the above example, the `FinalClass` is declared as final,
+ * *      which means it cannot be subclassed by `SubClass`.
  * 
  * 
  * 
