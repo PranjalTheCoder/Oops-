@@ -16,7 +16,10 @@ public class BoxWeight extends Box {
         this.weight = old.weight; // Copy the weight
     }
 
-   
+    BoxWeight(double side, double weight) {
+        super(side); // Call the cube constructor of Box
+        this.weight = weight;
+    }
     
 }
 

@@ -33,6 +33,24 @@ public class Main {
 
         BoxPrice box6 = new BoxPrice(); // Default constructor of BoxPrice
         System.out.println("BoxPrice - Length: " + box6.l + ", Height: " + box6.h + ", Width: " + box6.w + ", Weight: " + box6.weight + ", Cost: " + box6.cost);
+
+
+        BoxPrice box7 = new BoxPrice(7.89, 6.7, 5.4);
+        System.out.println("BoxPrice - Length: " + box7.l + ", Height: " + box7.h + ", Width: " + box7.w + ", Weight: " + box7.weight + ", Cost: " + box7.cost);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 /*

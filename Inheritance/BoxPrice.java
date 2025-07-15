@@ -15,5 +15,8 @@ public class BoxPrice extends BoxWeight {
         super(old); // Call the copy constructor of BoxWeight
         this.cost = old.cost; // Copy the cost
     }
-    
+    public BoxPrice(double side, double weight, double cost) {
+        super(side, weight); // Call the cube constructor of BoxWeight
+        this.cost = cost;
+    }
 }
