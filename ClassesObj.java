@@ -1,8 +1,28 @@
+// Main class must match the filename
 public class ClassesObj {
+
+    // Custom class MyArr
+    static class MyArr {
+        int capacity;
+        int[] arr;
+
+        MyArr() {
+            capacity = 0;
+            arr = new int[0];
+        }
+
+        void print() {
+            System.out.println("Capacity: " + capacity);
+            System.out.println("Array Length: " + arr.length);
+        }
+    }
+
     public static void main(String[] args) {
-        
+        MyArr obj = new MyArr();
+        obj.print();
     }
 }
+
 /*
  * Class is a named of group, properties and functions.
  * Class is started with Capital latter
